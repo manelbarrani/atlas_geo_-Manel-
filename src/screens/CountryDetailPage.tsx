@@ -112,7 +112,7 @@ const styles = StyleSheet.create({
   },
   cardTitle: { 
     fontSize: 11, 
-    color: '#90a4ae',
+    color: '#097549ff',
     textTransform: 'uppercase',
     letterSpacing: 1.5,
     fontWeight: '700',
