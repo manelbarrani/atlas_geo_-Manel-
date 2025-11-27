@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "atlas_geo_$Manel$",
+    "slug": "atlas_geo_manel",
+    "version": "1.0.0",
+    "sdkVersion": "48.0.0",
+    "platforms": ["ios", "android", "web"]
+  }
+}

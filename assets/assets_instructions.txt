@@ -1,0 +1,11 @@
+Place your images into this folder with the following names:
+
+- globe.png  -> use your file: C:\Users\DELL\Desktop\globe.png
+- tunisia_big.png  -> use your file: C:\Users\DELL\Desktop\Tunisia_Big.png
+
+Example (PowerShell):
+
+Copy-Item "C:\Users\DELL\Desktop\globe.png" -Destination "$(Resolve-Path .)\\assets\\globe.png"
+Copy-Item "C:\Users\DELL\Desktop\Tunisia_Big.png" -Destination "$(Resolve-Path .)\\assets\\tunisia_big.png"
+
+After copying, restart Metro (`npm start`).
